@@ -1,0 +1,50 @@
+*body{
+  background-color: white;
+}
+.small__Header h4 a:hover{
+  color: red;
+}
+.Image img{ 
+  background-size: cover;
+  width: 100%;
+  height: fit-content;
+  height: 600px;
+  display: flex;
+  border-bottom: 8px solid white;
+  position:relative;
+}
+.Image{
+  /* mask-image:linear-gradient(to bottom, rgba(0,0,0,1),rgba(0,0,0,0)) ; */
+  border-bottom: 8px solid white;
+
+}
+a{
+  color: white;
+}
+.Writing_part h1{
+  margin: 80px 50px;
+  color: rgb(187, 10, 10);
+  font-size: 40px;
+  background-color: white;
+}
+.Writing_part{
+  margin-right: 60px;
+  z-index: +1;
+}
+
+.main_page{
+  background-color: white;
+  width: 100%;
+  position: relative;
+  top: 500px;
+  background: white;
+  height: 1700px;
+  z-index: -1;
+}
+.main_page h4{
+  z-index: 1;
+  margin: 50px;
+}
+.small__Header2{
+  display: none;
+}
