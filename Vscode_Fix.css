@@ -48,3 +48,7 @@ a{
 .small__Header2{
   display: none;
 }
+section h1{
+  padding-top: -50px;
+
+}

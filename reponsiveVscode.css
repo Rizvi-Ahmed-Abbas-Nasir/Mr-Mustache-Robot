@@ -229,7 +229,7 @@
     float: left;
     width: 15%;
     padding: 5.5px ;
-    background: rgb(170, 93, 118);
+    background: #0b7dda;
     color: white;
     font-size: 17px;
     border:none;
@@ -455,7 +455,7 @@
     float: left;
     width: 15%;
     padding: 5.5px ;
-    background: rgb(170, 93, 118);
+    background: #0b7dda;
     color: white;
     font-size: 17px;
     border:none;
@@ -530,7 +530,7 @@
   .Text-work h1 {
     font-size: 55px;
     padding: 0px -5px;
-    color:rgb(170, 93, 118) ;
+    color:#0b7dda;
   }
 
   .Text-work h1 {
@@ -644,7 +644,7 @@
     float: left;
     width: 15%;
     padding: 5.5px ;
-    background: rgb(170, 93, 118);
+    background: #0b7dda;
     color: white;
     font-size: 17px;
     border:none;
@@ -732,7 +732,7 @@
     .Text-work h1 {
       font-size: 53px;
       padding: 0px -5px;
-      color:rgb(170, 93, 118);
+      color:rgb(28, 104, 192);
     }
 
     .Text-work h1 {
@@ -846,8 +846,7 @@
       max-height: 8%;
       color: white;
       font-size:100%;
-      justify-content: space-evenly;
-      padding: 0px 50px;
+      padding: 0px 5px;
     }    
 
     input{
@@ -888,7 +887,7 @@
       float: left;
       width: 15%;
       padding: 5.5px ;
-      background: rgb(170, 93, 118);
+      background:#0b7dda;
       color: white;
       font-size: 17px;
       border:none;
@@ -1126,7 +1125,7 @@
           float: left;
           width: 15%;
           padding: 2.5px ;
-          background: rgb(170, 93, 118);
+          background: #0b7dda;
           color: white;
           font-size: 17px;
           border:none;
