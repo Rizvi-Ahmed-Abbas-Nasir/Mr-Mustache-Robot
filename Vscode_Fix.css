@@ -36,9 +36,7 @@ a{
   z-index: -1;
   margin: 50px;
 }
-.small__Header2{
-  display: none;
-}
+
 section h1{
   padding-top: -50px;
 
@@ -89,7 +87,7 @@ header{
   z-index: 10;
 }
 
-.img2{
+.img2 img{
   width: 100%;
   background-repeat: no-repeat;
   background-size: cover;
