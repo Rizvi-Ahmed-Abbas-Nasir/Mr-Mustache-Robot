@@ -520,6 +520,60 @@ footer{
     width: 100%;
     font-size: 17px;
 }
-.small__Header h4 a:hover{
-    color: red;
+input{
+    display: flex;
+    padding: 0px 60px;
+    width: 50%;
+    margin-top:10px;
+    margin-left: 250px;
+    height: 30px;
+    
+}
+body {
+    font-family: Arial;
+}
+  
+input{
+    box-sizing: border-box;
+  }
+  form.example input[type=text] {
+    padding: 10px 0px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: left;
+    width: 50%;
+    background: #f1f1f1;
+    justify-content: space-between;
+    margin-right: 80px;
+    display: flex;
+    margin-bottom: 5px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+  
+  }
+  
+  form.example button {
+    float: left;
+    width: 15%;
+    padding: 3.1px ;
+    background: rgb(170, 93, 118);
+    color: white;
+    font-size: 17px;
+    border:none;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    cursor: pointer;
+    margin-left: 900px;
+    margin-top: -34px;
+    z-index: -1;
+  }
+  
+  form.example button:hover {
+    background: #0b7dda;
+  }
+  
+  form.example::after {
+    content: "";
+    clear: both;
+    display: table;
   }
