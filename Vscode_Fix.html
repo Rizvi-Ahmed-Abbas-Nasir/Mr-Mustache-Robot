@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The token '&&' is not a valid statement separator in this version | Mr Mustache Robot</title>
     <link rel="stylesheet" type="text/css" href="MR. MUSTACHE ROBOT.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" type="text/css" href="reponsiveVscode.css">
     <link rel="shortcut icon" type="image/png" href="image/zz.png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
@@ -218,7 +219,14 @@
 <section>
     <div id="grad1">   
     <div class="Image">
-    <img src="image/SideColor.png" class="img2">
+    <img src="image/SideColor.png" class="img2"  data-aos="fade-right" data-aos="slide-right"
+    data-aos-offset="100"
+    data-aos-delay="50"
+    data-aos-duration="1000"
+    data-aos-easing="ease-in-out"
+    data-aos-mirror="true"
+    data-aos-once="false"
+    data-aos-anchor-placement="top-center" >
 </div>
     <div class="Heading" >
     <h1>Robot Turtorials</h1>
@@ -259,6 +267,12 @@
           });
         }
         </script>
+          <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+          <script>
+            AOS.init();
+            offset: 500
+          </script>
+
         
 </body>
 </html>
