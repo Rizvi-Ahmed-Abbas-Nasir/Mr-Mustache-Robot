@@ -11,7 +11,7 @@
   }
   
   header {
-    height: 16%;
+    height: 15%;
   }
   
 
@@ -224,7 +224,7 @@
     justify-content: space-between;
     margin-left: -50px;
     display: flex;
-    margin-bottom: -10px;
+    margin-bottom: -5px;
     border-bottom-left-radius: 5px;
     border-top-left-radius: 5px;
   
@@ -233,7 +233,7 @@
   form.example button {
     float: left;
     width: 15%;
-    padding: 5.5px ;
+    padding: 5px ;
     background: #0b7dda;
     color: white;
     font-size: 17px;
@@ -242,7 +242,7 @@
     border-top-right-radius: 5px;
     cursor: pointer;
     margin-left: 455px;
-    margin-top: -24px;
+    margin-top: -29px;
     z-index: -1;
   }
   
@@ -315,7 +315,7 @@
     display: none;
   }
   header {
-    height: 16%;
+    height: 20%;
   }
   nav ul li a {
     font-size: 20px;
@@ -597,7 +597,7 @@
     font-size: 18px;
   }
   .small__Header{
-    padding: 12px;
+    padding: 0px;
   }
   .small__Header {
     background-color:rgb(46, 45, 45);
@@ -606,7 +606,6 @@
     min-height: 5%;
     display: flex;
     position:sticky;
-    max-height: 20%;
     display: flex;
     justify-content: space-between;
   
@@ -614,20 +613,20 @@
   .small__Header h4 {
     margin-top:7.5%;
     min-height: auto;
-    max-height: 8%;
     color: white;
     font-size:100%;
     justify-content: space-evenly;
-    padding: 0px 50px;
+    padding: 0px 90px;
+    display:flex;
   }   
   input{
     display: flex;
-    padding: 0px 60px;
+    padding: 0px 20px;
     width: 40%;
-    height: 10px;
+    height: 20px;
     margin-top:105px;
-    margin-right: -20px;
-    height: 25px;
+    margin-right: 50px;
+    height: 26px;
     
   }
   body {
@@ -638,7 +637,7 @@
     box-sizing: border-box;
   }
   form.example input[type=text] {
-    padding: 16px 0px;
+    padding: 15px 0px;
     font-size: 17px;
     border: 1px solid grey;
     float: left;
@@ -646,7 +645,7 @@
     background: #f1f1f1;
     margin-left: -50px;
     justify-content: space-between;
-    margin-left: -50px;
+    margin-left: -30px;
     display: flex;
     margin-bottom: -10px;
     border-bottom-left-radius: 5px;
@@ -665,8 +664,8 @@
     border-bottom-right-radius: 5px;
     border-top-right-radius: 5px;
     cursor: pointer;
-    margin-left: 455px;
-    margin-top: -24px;
+    margin-left: 350px;
+    margin-top: -23px;
     z-index: -1;
   }
   
@@ -679,6 +678,7 @@
     clear: both;
     display: table;
   }
+  
   
 
 }
@@ -854,7 +854,7 @@
       position:sticky;
       max-height: 20%;
       display: flex;
-      justify-content: space-between;
+      justify-content: space-evenly;
     
     }
     .small__Header h4 {
@@ -910,7 +910,7 @@
       border-bottom-right-radius: 5px;
       border-top-right-radius: 5px;
       cursor: pointer;
-      margin-right: -180px;
+      margin-right: -210px;
       margin-top: -24px;
       z-index: -1;
     }
@@ -1089,30 +1089,29 @@
         }
         .small__Header {
           background-color:rgb(46, 45, 45);
-          padding: 0px;
-          height: 1%;
-          min-height: 2%;
+          padding: 0px 10px;
+          height: 5%;
           display: flex;
-          position:sticky;
-          max-height: 5%;
+          max-height: 8%;
           display: flex;
-          justify-content: space-between;
+          justify-content: space-evenly;
         }
         .small__Header h4 {
-          margin-top: 8.6%;
-          min-height: auto;
+          margin-top: 8.9%;
           max-height: 8%;
           color: white;
           font-size:80%;
-          justify-content: space-evenly;
-          padding: 0px 50px;
+          justify-content: space-between;
+          padding: 0px 40px;
+          float: right;
+          display: flex;
         }
         input{
           display: flex;
-          padding: 15px 60px;
-          width: 50%;
+          padding: 10px 60px;
+          width: 20%;
           margin-top:100px;
-          margin-right: 150px;
+          margin-right: 5px;
           height: 30px;
           
         }
@@ -1124,15 +1123,15 @@
           box-sizing: border-box;
         }
         form.example input[type=text] {
-          padding: 10px 0px;
+          padding: 5px 0px;
           font-size: 17px;
           border: 1px solid grey;
           float: left;
-          width: 90%;
+          width: 70%;
           background: #f1f1f1;
-          margin-left: -50px;
+          margin-left: 100px;
           justify-content: space-between;
-          margin-right: -30px;
+          margin-right:-20px;
           display: flex;
           margin-bottom: 5px;
           border-bottom-left-radius: 5px;
@@ -1142,8 +1141,8 @@
         
         form.example button {
           float: left;
-          width: 15%;
-          padding: 2.5px ;
+          width: 10%;
+          padding: 3px ;
           background: #0b7dda;
           color: white;
           font-size: 17px;
@@ -1151,7 +1150,7 @@
           border-bottom-right-radius: 5px;
           border-top-right-radius: 5px;
           cursor: pointer;
-          margin-right: -50px;
+          margin-right:20px;
           margin-top: -35px;
           z-index: -1;
         }
@@ -1166,6 +1165,9 @@
           display: table;
         }
         
+        .Heading {
+          font-size: 14px;
+        }
 
       }
 @media only screen and (max-width:1100px){
@@ -1412,7 +1414,7 @@ form.example button {
   float: left;
   width: 15%;
   padding: 2.5px ;
-  background: rgb(170, 93, 118);
+  background: #0b7dda;
   color: white;
   font-size: 17px;
   border:none;
@@ -1699,7 +1701,7 @@ form.example::after {
   }
   .small__Header {
     background-color:rgb(46, 45, 45);
-    padding: 0px;
+    padding: 10px;
     height: 1%;
     min-height: 2%;
     display: flex;
@@ -1710,17 +1712,18 @@ form.example::after {
   
   }
   .small__Header h4 {
-    margin-top: 9%;
-    min-height: auto;
+    margin-top: -20%;
+
     max-height: 8%;
     color: white;
-    font-size:67%;
-    padding: 0px 40px;
+    font-size:70%;
+    padding: 0px 60px;
+    justify-content: space-evenly;
   }
   input{
     display: flex;
     padding: 5px 60px;
-    width: 60%;
+    width: 80%;
     margin-top:85px;
     margin-right: 200px;
     height: 23px;
@@ -1755,7 +1758,7 @@ form.example::after {
     float: left;
     width: 5%;
     padding: 0.1px ;
-    background: rgb(170, 93, 118);
+    background: #0b7dda;
     color: white;
     font-size: 12px;
     border:none;
@@ -1775,6 +1778,9 @@ form.example::after {
     content: "";
     clear: both;
     display: table;
+  }
+  .Heading{
+    font-size: 13px;
   }
   
 
@@ -2093,7 +2099,7 @@ form.example::after {
       float: left;
       width: 15%;
       padding: -0.1px ;
-      background: rgb(170, 93, 118);
+      background: #0b7dda;
       color: white;
       font-size: 17px;
       border:none;
@@ -2331,7 +2337,7 @@ form.example::after {
     float: left;
     width: 15%;
     padding: -0.1px ;
-    background: rgb(170, 93, 118);
+    background: #0b7dda;
     color: white;
     font-size: 17px;
     border:none;
