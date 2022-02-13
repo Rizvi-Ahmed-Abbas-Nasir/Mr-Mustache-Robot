@@ -106,6 +106,7 @@ header{
 .conatinforh2 h2{
   text-align: left;
   margin-left: 20px;
+  font-family:Calibri (Body);
   
 
 }
@@ -125,4 +126,21 @@ header{
 .containbutton:hover{
   padding-right: 50px;
   
+}
+
+
+.pageHeader h1{
+  /* font-family: Georgia, serif;  */
+  margin-left: 55px;
+  font-size: 30px;
+  font-family: Georgia, serif;
+
+}
+
+.hr-line{
+  width: 90%;
+  height: 2px;
+  background:black;
+  margin-left: 52px;
+  margin-top: 10px;
 }
