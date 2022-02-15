@@ -134,6 +134,7 @@ header{
   margin-left: 55px;
   font-size: 35px;
   font-family: Georgia, serif;
+  margin-top: 150px;
 
 }
 
@@ -146,10 +147,12 @@ header{
 }
 
 .pages{
-  margin-top: 25px;
-  margin-left: 55px;
+  margin-top: 50px;
+  margin-left: 80px;
   font-size: 18px;
   z-index: 10;
+  margin-right: 100px;
+  
 
 }
 
@@ -169,12 +172,107 @@ header{
 .Imageofvs img{ 
   width: 45%;
   margin-top: 50px;
-  margin-left: 400px;
+  margin-left: 350px;
   transition: .4s linear;
   border-radius: 2px;
 }
 
-.Imageofvs img:hover{
-  width: 46%;
-  transition: .4s linear;
+.powershell{
+  margin-left: 35px;
+  margin-top: 45px;
+
+}
+
+.h1forshell{
+
+}
+
+.pfordhell{
+  font-size: 18px;
+  margin-top: 15px;
+  margin-left: 60px;
+}
+.micro{
+  display: flex;
+ float: left;
+  margin-left:526px;
+  margin-top: -21px;
+  
+}
+ .line{
+   margin-left: 680px;
+   margin-top: -21px;
+ }      
+ mark{
+  background-color:#c0ffc8;
+ }
+
+
+ .containerforpowershell {
+   margin-top: 50px;
+   margin-left: 400px;
+   background: rgba(179, 181, 182, 0.582);
+   margin-right: 550px;
+   padding: 9px 0px;
+ }
+ .containerforpowershell a{
+    color: blue;
+ }
+
+
+
+ .Settings{
+   margin-top: 30px;
+   margin-left: 30px;
+   
+ }
+
+ .Settings p{
+  font-size: 18px;
+  margin-top: 10px;
+  margin-left: 40px;
+ }
+
+ .Settings img{ 
+  width: 45%;
+  margin-left: 320px;
+  margin-top: 20px;
+
+ }
+
+ .Settings2{
+  margin-top: 60px;
+  margin-left: 30px;
+  
+}
+
+.Settings2 p{
+ font-size: 18px;
+ margin-top: 10px;
+ margin-left: 40px;
+}
+
+.Settings2 img{ 
+ width: 45%;
+ margin-left: 320px;
+ margin-top: 20px;
+
+}
+.Settings3{
+  margin-top: 60px;
+  margin-left: 30px;
+  
+}
+
+.Settings3 p{
+ font-size: 18px;
+ margin-top: 10px;
+ margin-left: 40px;
+}
+
+.Settings3 img{ 
+ width: 45%;
+ margin-left: 320px;
+ margin-top: 20px;
+
 }
