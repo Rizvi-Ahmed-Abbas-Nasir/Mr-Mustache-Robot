@@ -131,11 +131,11 @@ header{
 
 .pageHeader h1{
   /* font-family: Georgia, serif;  */
-  margin-left: 55px;
+  margin-left: 100px;
   font-size: 35px;
-  font-family: Georgia, serif;
+  font-family: poppins;
   margin-top: 150px;
-
+  margin-right: 200px;
 }
 
 .hr-line{
@@ -148,10 +148,10 @@ header{
 
 .pages{
   margin-top: 50px;
-  margin-left: 80px;
+  margin-left: 200px;
   font-size: 18px;
   z-index: 10;
-  margin-right: 100px;
+  margin-right: 210px;
   
 
 }
@@ -178,8 +178,9 @@ header{
 }
 
 .powershell{
-  margin-left: 35px;
+  margin-left: 200px;
   margin-top: 45px;
+  margin-right: 220px;
 
 }
 
@@ -204,15 +205,15 @@ header{
    margin-top: -21px;
  }      
  mark{
-  background-color:#c0ffc8;
+  background-color:yellow;
  }
 
 
  .containerforpowershell {
    margin-top: 50px;
-   margin-left: 400px;
+   margin-left: 200px;
    background: rgba(179, 181, 182, 0.582);
-   margin-right: 550px;
+   margin-right: 200px;
    padding: 9px 0px;
  }
  .containerforpowershell a{
@@ -223,19 +224,20 @@ header{
 
  .Settings{
    margin-top: 30px;
-   margin-left: 30px;
+   margin-left: 200px;
    
  }
 
  .Settings p{
   font-size: 18px;
   margin-top: 10px;
-  margin-left: 40px;
+  margin-left: 60px;
+  margin-right: 220px;
  }
 
  .Settings img{ 
-  width: 45%;
-  margin-left: 320px;
+  width: 50%;
+  margin-left: 150px;
   margin-top: 20px;
 
  }
@@ -275,4 +277,14 @@ header{
  margin-left: 320px;
  margin-top: 20px;
 
+}
+
+.frame{
+  margin-top: 50px;
+}
+
+
+.still{
+  margin-top: 50px;
+  margin-left: 30px;
 }
