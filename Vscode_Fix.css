@@ -169,13 +169,6 @@ header{
 } */
 
 
-.Imageofvs img{ 
-  width: 45%;
-  margin-top: 50px;
-  margin-left: 350px;
-  transition: .4s linear;
-  border-radius: 2px;
-}
 
 .powershell{
   margin-left: 200px;
@@ -209,13 +202,13 @@ header{
  }
 
 
- .containerforpowershell {
+ /* .containerforpowershell {
    margin-top: 50px;
    margin-left: 200px;
    background: rgba(179, 181, 182, 0.582);
    margin-right: 200px;
    padding: 9px 0px;
- }
+ } */
  .containerforpowershell a{
     color: blue;
  }
@@ -235,12 +228,7 @@ header{
   margin-right: 220px;
  }
 
- .Settings img{ 
-  width: 50%;
-  margin-left: 150px;
-  margin-top: 20px;
-
- }
+ 
 
  .Settings2{
   margin-top: 60px;
@@ -296,11 +284,11 @@ footer{
  
 }
 
-.footerContain h3{
+/* .footerContain h3{
   color: white;
   display: flex;
   float: left;
   justify-content: space-between;
   padding-left:20px;
   margin-left: 120px;
-}
+} */
