@@ -1317,11 +1317,18 @@
         width: 50%;
         margin-left: 150px;
         margin-top: 20px;
-      
        } 
+       .Settings h1{
+
+        font-size: 19px;
+
+       }
+       .Settings p{ 
+        font-size: 9px;
+       }
   
       .Imageofvs img{
-        margin-left: 360px;
+        margin-left: 270px;
       }
       
     
@@ -1339,9 +1346,30 @@
         float: left;
         justify-content: space-between;
         padding-left:20px;
-        margin-left: 145px;
+        margin-left: 120px;
         font-size: 13px;
       }
+      .containForMain{
+        padding: 15px;
+
+      }
+      .containForMain h2{
+        font-size: 18px;
+      }
+      .containForMain h4{
+        font-size: 15px;
+      }
+      .containbutton p{ 
+        font-size: 12px;
+      }
+      .pageHeader{
+        font-size: 25px;
+      }
+      .pages p{
+        font-size: 15px;
+      }
+
+
 
 
 }
