@@ -129,14 +129,6 @@ header{
 }
 
 
-.pageHeader h1{
-  /* font-family: Georgia, serif;  */
-  margin-left: 100px;
-  font-size: 35px;
-  font-family: poppins;
-  margin-top: 150px;
-  margin-right: 200px;
-}
 
 .hr-line{
   width: 90%;
@@ -146,15 +138,6 @@ header{
   margin-top: 10px;
 }
 
-.pages{
-  margin-top: 50px;
-  margin-left: 200px;
-  font-size: 18px;
-  z-index: 10;
-  margin-right: 210px;
-  
-
-}
 
 /* .SliderImage img{
   width: 100%;
