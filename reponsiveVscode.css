@@ -1346,8 +1346,8 @@
         float: left;
         justify-content: space-between;
         padding-left:20px;
-        margin-left: 120px;
-        font-size: 13px;
+        margin-left: 130px;
+        font-size: 15px;
       }
       .containForMain{
         padding: 15px;
@@ -1368,8 +1368,6 @@
       .pages p{
         font-size: 15px;
       }
-
-
 
 
 }
