@@ -5,6 +5,197 @@
     text-decoration: none;
 }
 @media only screen and (max-width:2000px) {
+  .main_page{
+    background-color: white;
+    width: 100%;
+    position: relative;
+    top: 500px;
+    background: white;
+    height: 1700px;
+    z-index: 1;
+  }
+  .main_page h4{
+    z-index: -1;
+    margin: 50px;
+  }
+  
+  section h1{
+    padding-top: -50px;
+  
+  }
+  
+  nav ul li a.active {
+    background-color:#2080ce;
+    font-weight: 500;
+    border-radius: 0.2vw;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-right: 1px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    cursor: pointer;
+    color: white;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    margin-right: 6px;
+    border-bottom: 2px solid rgb(73, 69, 69);
+  }
+  nav ul li a.active:hover{
+    border-radius: 30px;
+    color: #202125;
+  }
+  
+  
+  
+  .Heading h1{
+    margin-top: -550px;
+    padding: 0px 50px;
+    font-size: 220%;
+    font-family: poppins;
+    text-transform: uppercase;
+    color:rgb(48, 45, 45);
+    
+  }
+  .Heading2 h3{
+    margin-top: -50px;
+    padding: 0px 20px;
+    font-size: 150%;
+    font:600;
+    border-bottom:solid rgb(116, 113, 113) 5px ;
+    border-radius: 25px;
+  }
+  header{
+    z-index: 10;
+  }
+  
+  .img2 img{
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .nav ul li a:hover{
+   color: #0b7dda;
+  }
+  .containForMain{
+    background-color: #0b7dda;
+    padding: 20px;
+    margin: 80px 120px;
+    margin-top: -50px;
+    border-radius: 7px;
+  }
+  
+  .conatinforh2 h2{
+    text-align: left;
+    margin-left: 20px;
+    font-family:Calibri (Body);
+    
+  
+  }
+   
+  .containforh4 h4{
+    margin-top: 25px;
+   margin-left: 20px;
+  
+  }
+  .containbutton {
+    margin-left: 20px;
+    margin-top: -90px;
+    padding: 10px 10px;
+    border: none;
+    border-radius: 5px;
+  }
+  .containbutton:hover{
+    padding-right: 50px;
+    
+  }
+  
+  
+  
+  .hr-line{
+    width: 90%;
+    height: 2px;
+    background:black;
+    margin-left: 52px;
+    margin-top: 10px;
+  }
+  
+  
+  /* .SliderImage img{
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: -50px;
+    position:relative;
+    z-index: -10;
+    display: flex;
+    
+    
+  } */
+  
+  
+  
+  .powershell{
+    margin-left: 200px;
+    margin-top: 45px;
+    margin-right: 220px;
+  
+  }
+  
+  .h1forshell{
+  
+  }
+  
+  .pfordhell{
+    font-size: 18px;
+    margin-top: 15px;
+    margin-left: 60px;
+  }
+  .micro{
+    display: flex;
+   float: left;
+    margin-left:526px;
+    margin-top: -21px;
+    
+  }
+   .line{
+     margin-left: 680px;
+     margin-top: -21px;
+   }      
+   mark{
+    background-color:yellow;
+   }
+  
+  
+   /* .containerforpowershell {
+     margin-top: 50px;
+     margin-left: 200px;
+     background: rgba(179, 181, 182, 0.582);
+     margin-right: 200px;
+     padding: 9px 0px;
+   } */
+   .containerforpowershell a{
+      color: blue;
+   }
+  
+  
+  
+   .Settings{
+     margin-top: 30px;
+     margin-left: 200px;
+     
+   }
+  
+   .Settings p{
+    font-size: 18px;
+    margin-top: 10px;
+    margin-left: 60px;
+    margin-right: 220px;
+   }
+  
+   
+  
+  
 
   .SM2{
     display: none;
@@ -307,6 +498,197 @@
 
 }
 @media only screen and (max-width:1px) {
+  .main_page{
+    background-color: white;
+    width: 100%;
+    position: relative;
+    top: 500px;
+    background: white;
+    height: 1700px;
+    z-index: 1;
+  }
+  .main_page h4{
+    z-index: -1;
+    margin: 50px;
+  }
+  
+  section h1{
+    padding-top: -50px;
+  
+  }
+  
+  nav ul li a.active {
+    background-color:#2080ce;
+    font-weight: 500;
+    border-radius: 0.2vw;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-right: 1px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    cursor: pointer;
+    color: white;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    margin-right: 6px;
+    border-bottom: 2px solid rgb(73, 69, 69);
+  }
+  nav ul li a.active:hover{
+    border-radius: 30px;
+    color: #202125;
+  }
+  
+  
+  
+  .Heading h1{
+    margin-top: -550px;
+    padding: 0px 50px;
+    font-size: 220%;
+    font-family: poppins;
+    text-transform: uppercase;
+    color:rgb(48, 45, 45);
+    
+  }
+  .Heading2 h3{
+    margin-top: -50px;
+    padding: 0px 20px;
+    font-size: 150%;
+    font:600;
+    border-bottom:solid rgb(116, 113, 113) 5px ;
+    border-radius: 25px;
+  }
+  header{
+    z-index: 10;
+  }
+  
+  .img2 img{
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .nav ul li a:hover{
+   color: #0b7dda;
+  }
+  .containForMain{
+    background-color: #0b7dda;
+    padding: 20px;
+    margin: 80px 120px;
+    margin-top: -50px;
+    border-radius: 7px;
+  }
+  
+  .conatinforh2 h2{
+    text-align: left;
+    margin-left: 20px;
+    font-family:Calibri (Body);
+    
+  
+  }
+   
+  .containforh4 h4{
+    margin-top: 25px;
+   margin-left: 20px;
+  
+  }
+  .containbutton {
+    margin-left: 20px;
+    margin-top: -90px;
+    padding: 10px 10px;
+    border: none;
+    border-radius: 5px;
+  }
+  .containbutton:hover{
+    padding-right: 50px;
+    
+  }
+  
+  
+  
+  .hr-line{
+    width: 90%;
+    height: 2px;
+    background:black;
+    margin-left: 52px;
+    margin-top: 10px;
+  }
+  
+  
+  /* .SliderImage img{
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: -50px;
+    position:relative;
+    z-index: -10;
+    display: flex;
+    
+    
+  } */
+  
+  
+  
+  .powershell{
+    margin-left: 200px;
+    margin-top: 45px;
+    margin-right: 220px;
+  
+  }
+  
+  .h1forshell{
+  
+  }
+  
+  .pfordhell{
+    font-size: 18px;
+    margin-top: 15px;
+    margin-left: 60px;
+  }
+  .micro{
+    display: flex;
+   float: left;
+    margin-left:526px;
+    margin-top: -21px;
+    
+  }
+   .line{
+     margin-left: 680px;
+     margin-top: -21px;
+   }      
+   mark{
+    background-color:yellow;
+   }
+  
+  
+   /* .containerforpowershell {
+     margin-top: 50px;
+     margin-left: 200px;
+     background: rgba(179, 181, 182, 0.582);
+     margin-right: 200px;
+     padding: 9px 0px;
+   } */
+   .containerforpowershell a{
+      color: blue;
+   }
+  
+  
+  
+   .Settings{
+     margin-top: 30px;
+     margin-left: 200px;
+     
+   }
+  
+   .Settings p{
+    font-size: 18px;
+    margin-top: 10px;
+    margin-left: 60px;
+    margin-right: 220px;
+   }
+  
+   
+  
+  
   .SM2{
     display: none;
   }
@@ -371,7 +753,199 @@
   
 }
 @media only screen and (max-width:1700px) {
+  .main_page{
+    background-color: white;
+    width: 100%;
+    position: relative;
+    top: 500px;
+    background: white;
+    height: 1700px;
+    z-index: 1;
+  }
+  .main_page h4{
+    z-index: -1;
+    margin: 50px;
+  }
+  
+  section h1{
+    padding-top: -50px;
+  
+  }
+  
+  nav ul li a.active {
+    background-color:#2080ce;
+    font-weight: 500;
+    border-radius: 0.2vw;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-right: 1px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    cursor: pointer;
+    color: white;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    margin-right: 6px;
+    border-bottom: 2px solid rgb(73, 69, 69);
+  }
+  nav ul li a.active:hover{
+    border-radius: 30px;
+    color: #202125;
+  }
+  
+  
+  
+  .Heading h1{
+    margin-top: -550px;
+    padding: 0px 50px;
+    font-size: 220%;
+    font-family: poppins;
+    text-transform: uppercase;
+    color:rgb(48, 45, 45);
+    
+  }
+  .Heading2 h3{
+    margin-top: -50px;
+    padding: 0px 20px;
+    font-size: 150%;
+    font:600;
+    border-bottom:solid rgb(116, 113, 113) 5px ;
+    border-radius: 25px;
+  }
+  header{
+    z-index: 10;
+  }
+  
+  .img2 img{
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .nav ul li a:hover{
+   color: #0b7dda;
+  }
+  .containForMain{
+    background-color: #0b7dda;
+    padding: 20px;
+    margin: 80px 120px;
+    margin-top: -50px;
+    border-radius: 7px;
+  }
+  
+  .conatinforh2 h2{
+    text-align: left;
+    margin-left: 20px;
+    font-family:Calibri (Body);
+    
+  
+  }
+   
+  .containforh4 h4{
+    margin-top: 25px;
+   margin-left: 20px;
+  
+  }
+  .containbutton {
+    margin-left: 20px;
+    margin-top: -90px;
+    padding: 10px 10px;
+    border: none;
+    border-radius: 5px;
+  }
+  .containbutton:hover{
+    padding-right: 50px;
+    
+  }
+  
+  
+  
+  .hr-line{
+    width: 90%;
+    height: 2px;
+    background:black;
+    margin-left: 52px;
+    margin-top: 10px;
+  }
+  
+  
+  /* .SliderImage img{
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: -50px;
+    position:relative;
+    z-index: -10;
+    display: flex;
+    
+    
+  } */
+  
+  
+  
+  .powershell{
+    margin-left: 200px;
+    margin-top: 45px;
+    margin-right: 220px;
+  
+  }
+  
+  .h1forshell{
+  
+  }
+  
+  .pfordhell{
+    font-size: 18px;
+    margin-top: 15px;
+    margin-left: 60px;
+  }
+  .micro{
+    display: flex;
+   float: left;
+    margin-left:526px;
+    margin-top: -21px;
+    
+  }
+   .line{
+     margin-left: 680px;
+     margin-top: -21px;
+   }      
+   mark{
+    background-color:yellow;
+   }
+  
+  
+   /* .containerforpowershell {
+     margin-top: 50px;
+     margin-left: 200px;
+     background: rgba(179, 181, 182, 0.582);
+     margin-right: 200px;
+     padding: 9px 0px;
+   } */
+   .containerforpowershell a{
+      color: blue;
+   }
+  
+  
+  
+   .Settings{
+     margin-top: 30px;
+     margin-left: 200px;
+     
+   }
+  
+   .Settings p{
+    font-size: 18px;
+    margin-top: 10px;
+    margin-left: 60px;
+    margin-right: 220px;
+   }
+  
+   
+  
+  
   .SM2{
+ 
     display: none;
   }
   header {
@@ -784,6 +1358,197 @@
 
 }
 @media only screen and (max-width:1500px) {
+  .main_page{
+    background-color: white;
+    width: 100%;
+    position: relative;
+    top: 500px;
+    background: white;
+    height: 1700px;
+    z-index: 1;
+  }
+  .main_page h4{
+    z-index: -1;
+    margin: 50px;
+  }
+  
+  section h1{
+    padding-top: -50px;
+  
+  }
+  
+  nav ul li a.active {
+    background-color:#2080ce;
+    font-weight: 500;
+    border-radius: 0.2vw;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-right: 1px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    cursor: pointer;
+    color: white;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    margin-right: 6px;
+    border-bottom: 2px solid rgb(73, 69, 69);
+  }
+  nav ul li a.active:hover{
+    border-radius: 30px;
+    color: #202125;
+  }
+  
+  
+  
+  .Heading h1{
+    margin-top: -550px;
+    padding: 0px 50px;
+    font-size: 220%;
+    font-family: poppins;
+    text-transform: uppercase;
+    color:rgb(48, 45, 45);
+    
+  }
+  .Heading2 h3{
+    margin-top: -50px;
+    padding: 0px 20px;
+    font-size: 150%;
+    font:600;
+    border-bottom:solid rgb(116, 113, 113) 5px ;
+    border-radius: 25px;
+  }
+  header{
+    z-index: 10;
+  }
+  
+  .img2 img{
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .nav ul li a:hover{
+   color: #0b7dda;
+  }
+  .containForMain{
+    background-color: #0b7dda;
+    padding: 20px;
+    margin: 80px 120px;
+    margin-top: -50px;
+    border-radius: 7px;
+  }
+  
+  .conatinforh2 h2{
+    text-align: left;
+    margin-left: 20px;
+    font-family:Calibri (Body);
+    
+  
+  }
+   
+  .containforh4 h4{
+    margin-top: 25px;
+   margin-left: 20px;
+  
+  }
+  .containbutton {
+    margin-left: 20px;
+    margin-top: -90px;
+    padding: 10px 10px;
+    border: none;
+    border-radius: 5px;
+  }
+  .containbutton:hover{
+    padding-right: 50px;
+    
+  }
+  
+  
+  
+  .hr-line{
+    width: 90%;
+    height: 2px;
+    background:black;
+    margin-left: 52px;
+    margin-top: 10px;
+  }
+  
+  
+  /* .SliderImage img{
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: -50px;
+    position:relative;
+    z-index: -10;
+    display: flex;
+    
+    
+  } */
+  
+  
+  
+  .powershell{
+    margin-left: 200px;
+    margin-top: 45px;
+    margin-right: 220px;
+  
+  }
+  
+  .h1forshell{
+  
+  }
+  
+  .pfordhell{
+    font-size: 18px;
+    margin-top: 15px;
+    margin-left: 60px;
+  }
+  .micro{
+    display: flex;
+   float: left;
+    margin-left:526px;
+    margin-top: -21px;
+    
+  }
+   .line{
+     margin-left: 680px;
+     margin-top: -21px;
+   }      
+   mark{
+    background-color:yellow;
+   }
+  
+  
+   /* .containerforpowershell {
+     margin-top: 50px;
+     margin-left: 200px;
+     background: rgba(179, 181, 182, 0.582);
+     margin-right: 200px;
+     padding: 9px 0px;
+   } */
+   .containerforpowershell a{
+      color: blue;
+   }
+  
+  
+  
+   .Settings{
+     margin-top: 30px;
+     margin-left: 200px;
+     
+   }
+  
+   .Settings p{
+    font-size: 18px;
+    margin-top: 10px;
+    margin-left: 60px;
+    margin-right: 220px;
+   }
+  
+   
+  
+  
   .SM2{
     display: none;
   }
@@ -1068,7 +1833,199 @@
 
 }
 @media only screen and (max-width:1350px) {
-      .SM2{
+  .main_page{
+    background-color: white;
+    width: 100%;
+    position: relative;
+    top: 500px;
+    background: white;
+    height: 1700px;
+    z-index: 1;
+  }
+  .main_page h4{
+    z-index: -1;
+    margin: 50px;
+  }
+  
+  section h1{
+    padding-top: -50px;
+  
+  }
+  
+  nav ul li a.active {
+    background-color:#2080ce;
+    font-weight: 500;
+    border-radius: 0.2vw;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-right: 1px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    cursor: pointer;
+    color: white;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    margin-right: 6px;
+    border-bottom: 2px solid rgb(73, 69, 69);
+  }
+  nav ul li a.active:hover{
+    border-radius: 30px;
+    color: #202125;
+  }
+  
+  
+  
+  .Heading h1{
+    margin-top: -550px;
+    padding: 0px 50px;
+    font-size: 220%;
+    font-family: poppins;
+    text-transform: uppercase;
+    color:rgb(48, 45, 45);
+    
+  }
+  .Heading2 h3{
+    margin-top: -50px;
+    padding: 0px 20px;
+    font-size: 150%;
+    font:600;
+    border-bottom:solid rgb(116, 113, 113) 5px ;
+    border-radius: 25px;
+  }
+  header{
+    z-index: 10;
+  }
+  
+  .img2 img{
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .nav ul li a:hover{
+   color: #0b7dda;
+  }
+  .containForMain{
+    background-color: #0b7dda;
+    padding: 20px;
+    margin: 80px 120px;
+    margin-top: -50px;
+    border-radius: 7px;
+  }
+  
+  .conatinforh2 h2{
+    text-align: left;
+    margin-left: 20px;
+    font-family:Calibri (Body);
+    
+  
+  }
+   
+  .containforh4 h4{
+    margin-top: 25px;
+   margin-left: 20px;
+  
+  }
+  .containbutton {
+    margin-left: 20px;
+    margin-top: -90px;
+    padding: 10px 10px;
+    border: none;
+    border-radius: 5px;
+  }
+  .containbutton:hover{
+    padding-right: 50px;
+    
+  }
+  
+  
+  
+  .hr-line{
+    width: 90%;
+    height: 2px;
+    background:black;
+    margin-left: 52px;
+    margin-top: 10px;
+  }
+  
+  
+  /* .SliderImage img{
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: -50px;
+    position:relative;
+    z-index: -10;
+    display: flex;
+    
+    
+  } */
+  
+  
+  
+  .powershell{
+    margin-left: 200px;
+    margin-top: 45px;
+    margin-right: 220px;
+  
+  }
+  
+  .h1forshell{
+  
+  }
+  
+  .pfordhell{
+    font-size: 18px;
+    margin-top: 15px;
+    margin-left: 60px;
+  }
+  .micro{
+    display: flex;
+   float: left;
+    margin-left:526px;
+    margin-top: -21px;
+    
+  }
+   .line{
+     margin-left: 680px;
+     margin-top: -21px;
+   }      
+   mark{
+    background-color:yellow;
+   }
+  
+  
+   /* .containerforpowershell {
+     margin-top: 50px;
+     margin-left: 200px;
+     background: rgba(179, 181, 182, 0.582);
+     margin-right: 200px;
+     padding: 9px 0px;
+   } */
+   .containerforpowershell a{
+      color: blue;
+   }
+  
+  
+  
+   .Settings{
+     margin-top: 30px;
+     margin-left: 200px;
+     
+   }
+  
+   .Settings p{
+    font-size: 18px;
+    margin-top: 10px;
+    margin-left: 60px;
+    margin-right: 220px;
+   }
+  
+   
+  
+  
+  
+  .SM2{
         display: none;
       }
       header {
@@ -1372,6 +2329,197 @@
 
 }
 @media only screen and (max-width:1100px){
+  .main_page{
+    background-color: white;
+    width: 100%;
+    position: relative;
+    top: 500px;
+    background: white;
+    height: 1700px;
+    z-index: 1;
+  }
+  .main_page h4{
+    z-index: -1;
+    margin: 50px;
+  }
+  
+  section h1{
+    padding-top: -50px;
+  
+  }
+  
+  nav ul li a.active {
+    background-color:#2080ce;
+    font-weight: 500;
+    border-radius: 0.2vw;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-right: 1px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    cursor: pointer;
+    color: white;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    margin-right: 6px;
+    border-bottom: 2px solid rgb(73, 69, 69);
+  }
+  nav ul li a.active:hover{
+    border-radius: 30px;
+    color: #202125;
+  }
+  
+  
+  
+  .Heading h1{
+    margin-top: -550px;
+    padding: 0px 50px;
+    font-size: 220%;
+    font-family: poppins;
+    text-transform: uppercase;
+    color:rgb(48, 45, 45);
+    
+  }
+  .Heading2 h3{
+    margin-top: -50px;
+    padding: 0px 20px;
+    font-size: 150%;
+    font:600;
+    border-bottom:solid rgb(116, 113, 113) 5px ;
+    border-radius: 25px;
+  }
+  header{
+    z-index: 10;
+  }
+  
+  .img2 img{
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .nav ul li a:hover{
+   color: #0b7dda;
+  }
+  .containForMain{
+    background-color: #0b7dda;
+    padding: 20px;
+    margin: 80px 120px;
+    margin-top: -50px;
+    border-radius: 7px;
+  }
+  
+  .conatinforh2 h2{
+    text-align: left;
+    margin-left: 20px;
+    font-family:Calibri (Body);
+    
+  
+  }
+   
+  .containforh4 h4{
+    margin-top: 25px;
+   margin-left: 20px;
+  
+  }
+  .containbutton {
+    margin-left: 20px;
+    margin-top: -90px;
+    padding: 10px 10px;
+    border: none;
+    border-radius: 5px;
+  }
+  .containbutton:hover{
+    padding-right: 50px;
+    
+  }
+  
+  
+  
+  .hr-line{
+    width: 90%;
+    height: 2px;
+    background:black;
+    margin-left: 52px;
+    margin-top: 10px;
+  }
+  
+  
+  /* .SliderImage img{
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: -50px;
+    position:relative;
+    z-index: -10;
+    display: flex;
+    
+    
+  } */
+  
+  
+  
+  .powershell{
+    margin-left: 200px;
+    margin-top: 45px;
+    margin-right: 220px;
+  
+  }
+  
+  .h1forshell{
+  
+  }
+  
+  .pfordhell{
+    font-size: 18px;
+    margin-top: 15px;
+    margin-left: 60px;
+  }
+  .micro{
+    display: flex;
+   float: left;
+    margin-left:526px;
+    margin-top: -21px;
+    
+  }
+   .line{
+     margin-left: 680px;
+     margin-top: -21px;
+   }      
+   mark{
+    background-color:yellow;
+   }
+  
+  
+   /* .containerforpowershell {
+     margin-top: 50px;
+     margin-left: 200px;
+     background: rgba(179, 181, 182, 0.582);
+     margin-right: 200px;
+     padding: 9px 0px;
+   } */
+   .containerforpowershell a{
+      color: blue;
+   }
+  
+  
+  
+   .Settings{
+     margin-top: 30px;
+     margin-left: 200px;
+     
+   }
+  
+   .Settings p{
+    font-size: 18px;
+    margin-top: 10px;
+    margin-left: 60px;
+    margin-right: 220px;
+   }
+  
+   
+  
+  
   .SM2{
     display: none;
   }
@@ -1668,6 +2816,198 @@ form.example::after {
 
 }
 @media only screen and (max-width:1050px) {
+  .main_page{
+    background-color: white;
+    width: 100%;
+    position: relative;
+    top: 500px;
+    background: white;
+    height: 1700px;
+    z-index: 1;
+  }
+  .main_page h4{
+    z-index: -1;
+    margin: 50px;
+  }
+  
+  section h1{
+    padding-top: -50px;
+  
+  }
+  
+  nav ul li a.active {
+    background-color:#2080ce;
+    font-weight: 500;
+    border-radius: 0.2vw;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-right: 1px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    cursor: pointer;
+    color: white;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    margin-right: 6px;
+    border-bottom: 2px solid rgb(73, 69, 69);
+  }
+  nav ul li a.active:hover{
+    border-radius: 30px;
+    color: #202125;
+  }
+  
+  
+  
+  .Heading h1{
+    margin-top: -550px;
+    padding: 0px 50px;
+    font-size: 220%;
+    font-family: poppins;
+    text-transform: uppercase;
+    color:rgb(48, 45, 45);
+    
+  }
+  .Heading2 h3{
+    margin-top: -50px;
+    padding: 0px 20px;
+    font-size: 150%;
+    font:600;
+    border-bottom:solid rgb(116, 113, 113) 5px ;
+    border-radius: 25px;
+  }
+  header{
+    z-index: 10;
+  }
+  
+  .img2 img{
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .nav ul li a:hover{
+   color: #0b7dda;
+  }
+  .containForMain{
+    background-color: #0b7dda;
+    padding: 20px;
+    margin: 80px 120px;
+    margin-top: -50px;
+    border-radius: 7px;
+  }
+  
+  .conatinforh2 h2{
+    text-align: left;
+    margin-left: 20px;
+    font-family:Calibri (Body);
+    
+  
+  }
+   
+  .containforh4 h4{
+    margin-top: 25px;
+   margin-left: 20px;
+  
+  }
+  .containbutton {
+    margin-left: 20px;
+    margin-top: -90px;
+    padding: 10px 10px;
+    border: none;
+    border-radius: 5px;
+  }
+  .containbutton:hover{
+    padding-right: 50px;
+    
+  }
+  
+  
+  
+  .hr-line{
+    width: 90%;
+    height: 2px;
+    background:black;
+    margin-left: 52px;
+    margin-top: 10px;
+  }
+  
+  
+  /* .SliderImage img{
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: -50px;
+    position:relative;
+    z-index: -10;
+    display: flex;
+    
+    
+  } */
+  
+  
+  
+  .powershell{
+    margin-left: 200px;
+    margin-top: 45px;
+    margin-right: 220px;
+  
+  }
+  
+  .h1forshell{
+  
+  }
+  
+  .pfordhell{
+    font-size: 18px;
+    margin-top: 15px;
+    margin-left: 60px;
+  }
+  .micro{
+    display: flex;
+   float: left;
+    margin-left:526px;
+    margin-top: -21px;
+    
+  }
+   .line{
+     margin-left: 680px;
+     margin-top: -21px;
+   }      
+   mark{
+    background-color:yellow;
+   }
+  
+  
+   /* .containerforpowershell {
+     margin-top: 50px;
+     margin-left: 200px;
+     background: rgba(179, 181, 182, 0.582);
+     margin-right: 200px;
+     padding: 9px 0px;
+   } */
+   .containerforpowershell a{
+      color: blue;
+   }
+  
+  
+  
+   .Settings{
+     margin-top: 30px;
+     margin-left: 200px;
+     
+   }
+  
+   .Settings p{
+    font-size: 18px;
+    margin-top: 10px;
+    margin-left: 60px;
+    margin-right: 220px;
+   }
+  
+   
+  
+  
+
   .SM2{
     display: none;
   }
@@ -1714,6 +3054,198 @@ form.example::after {
   }
 }
 @media only screen and (max-width:1050px) {
+  .main_page{
+    background-color: white;
+    width: 100%;
+    position: relative;
+    top: 500px;
+    background: white;
+    height: 1700px;
+    z-index: 1;
+  }
+  .main_page h4{
+    z-index: -1;
+    margin: 50px;
+  }
+  
+  section h1{
+    padding-top: -50px;
+  
+  }
+  
+  nav ul li a.active {
+    background-color:#2080ce;
+    font-weight: 500;
+    border-radius: 0.2vw;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-right: 1px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    cursor: pointer;
+    color: white;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    margin-right: 6px;
+    border-bottom: 2px solid rgb(73, 69, 69);
+  }
+  nav ul li a.active:hover{
+    border-radius: 30px;
+    color: #202125;
+  }
+  
+  
+  
+  .Heading h1{
+    margin-top: -550px;
+    padding: 0px 50px;
+    font-size: 220%;
+    font-family: poppins;
+    text-transform: uppercase;
+    color:rgb(48, 45, 45);
+    
+  }
+  .Heading2 h3{
+    margin-top: -50px;
+    padding: 0px 20px;
+    font-size: 150%;
+    font:600;
+    border-bottom:solid rgb(116, 113, 113) 5px ;
+    border-radius: 25px;
+  }
+  header{
+    z-index: 10;
+  }
+  
+  .img2 img{
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .nav ul li a:hover{
+   color: #0b7dda;
+  }
+  .containForMain{
+    background-color: #0b7dda;
+    padding: 20px;
+    margin: 80px 120px;
+    margin-top: -50px;
+    border-radius: 7px;
+  }
+  
+  .conatinforh2 h2{
+    text-align: left;
+    margin-left: 20px;
+    font-family:Calibri (Body);
+    
+  
+  }
+   
+  .containforh4 h4{
+    margin-top: 25px;
+   margin-left: 20px;
+  
+  }
+  .containbutton {
+    margin-left: 20px;
+    margin-top: -90px;
+    padding: 10px 10px;
+    border: none;
+    border-radius: 5px;
+  }
+  .containbutton:hover{
+    padding-right: 50px;
+    
+  }
+  
+  
+  
+  .hr-line{
+    width: 90%;
+    height: 2px;
+    background:black;
+    margin-left: 52px;
+    margin-top: 10px;
+  }
+  
+  
+  /* .SliderImage img{
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: -50px;
+    position:relative;
+    z-index: -10;
+    display: flex;
+    
+    
+  } */
+  
+  
+  
+  .powershell{
+    margin-left: 200px;
+    margin-top: 45px;
+    margin-right: 220px;
+  
+  }
+  
+  .h1forshell{
+  
+  }
+  
+  .pfordhell{
+    font-size: 18px;
+    margin-top: 15px;
+    margin-left: 60px;
+  }
+  .micro{
+    display: flex;
+   float: left;
+    margin-left:526px;
+    margin-top: -21px;
+    
+  }
+   .line{
+     margin-left: 680px;
+     margin-top: -21px;
+   }      
+   mark{
+    background-color:yellow;
+   }
+  
+  
+   /* .containerforpowershell {
+     margin-top: 50px;
+     margin-left: 200px;
+     background: rgba(179, 181, 182, 0.582);
+     margin-right: 200px;
+     padding: 9px 0px;
+   } */
+   .containerforpowershell a{
+      color: blue;
+   }
+  
+  
+  
+   .Settings{
+     margin-top: 30px;
+     margin-left: 200px;
+     
+   }
+  
+   .Settings p{
+    font-size: 18px;
+    margin-top: 10px;
+    margin-left: 60px;
+    margin-right: 220px;
+   }
+  
+   
+  
+  
+  
   header {
     height: 16%;
   }
@@ -1850,8 +3382,7 @@ form.example::after {
   footer {
     background-color: #202125;
     padding: 40px 0px;
-    border-radius: 5px;
-    border-top: 5px solid #3ae2cc;
+  
   }
 
   .footer {
@@ -1932,7 +3463,7 @@ form.example::after {
   }
   .small__Header {
     background-color:rgb(46, 45, 45);
-    padding: 10px;
+    padding: 4px;
     height: 1%;
     min-height: 2%;
     display: flex;
@@ -1943,12 +3474,10 @@ form.example::after {
   
   }
   .small__Header h4 {
-    margin-top: -20%;
-
+    margin-top: 86px;
     max-height: 8%;
     color: white;
     font-size:70%;
-    padding: 0px 60px;
     justify-content: space-evenly;
   }
   input{
@@ -1987,8 +3516,8 @@ form.example::after {
   
   form.example button {
     float: left;
-    width: 5%;
-    padding: 0.1px ;
+    width: 26%;
+    padding: 3px ;
     background: #0b7dda;
     color: white;
     font-size: 12px;
@@ -2041,7 +3570,7 @@ form.example::after {
     float: left;
     justify-content: space-between;
     padding-left:20px;
-    margin-left: 145px;
+    margin-left: 90px;
     font-size: 13px;
   }
 
@@ -2054,14 +3583,27 @@ form.example::after {
 }
 
 .Settings h1{
-  font-size: 10px;
+  font-size: 20px;
 
 
 }
 
 .Settings p{
-  font-size: 15px;
+  font-size: 10px;
 }
+
+.Settings img{
+  width: 50%;
+}
+.h1forshell h1{
+  font-size:10px ;
+}
+.containerforpowershell{
+  margin-left: 150px;
+  margin-right: 50px;
+}
+
+
 
 }
 @media only screen and (max-width:950px) {
@@ -2876,10 +4418,11 @@ nav ul ul li{
     display: none;
   }
   header{
-   padding:-10px;
+   padding:-9px;
   }
   .display {
     display: flex;
+    
   }
   .a{
     background-color: #0b7dda;
@@ -3100,7 +4643,7 @@ form.example input[type=text] {
 form.example button {
   float: left;
   width:90%;
-  padding: -00.1px ;
+  padding: -0px ;
   background: #0b7dda;
   color: white;
   font-size: 17px;
@@ -3110,8 +4653,9 @@ form.example button {
   cursor: pointer;
   margin-right: -50px;
   float: left;
-  margin-top: -28.6px;
+  margin-top: -28px;
   z-index: -1;
+
 }
 
 form.example button:hover {
@@ -3158,7 +4702,13 @@ body {
 input {
   box-sizing: border-box;
 
+
 }
+
+.main_page{
+  display: none;
+}
+
 }
 @media only screen and (max-width:390px) {
   .ul {
@@ -3669,6 +5219,14 @@ input {
    .Heading {
     display: none;
   }
+.main_page{
+  display: none;
+}
+
+.containForMain{
+  display: none;
+}
+  
 
 
 }
