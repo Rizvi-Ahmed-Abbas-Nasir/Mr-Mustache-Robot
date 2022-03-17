@@ -4709,6 +4709,69 @@ input {
   display: none;
 }
 
+.main_page2{
+  
+}
+.containForMain{
+  margin: 20px 50px;
+}
+
+.containbutton{
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.pageHeader h1{
+  margin: 90px 50px;
+  margin-right: 20px;
+  margin-left: 30px;
+}
+
+.pages {
+ margin: -10px;
+ margin-left: 30px;
+ margin-right:20px ;
+}
+
+.Imageofvs img{
+  width: 90%;
+  margin: 50px 20px;
+}
+
+.h1forshell h2{
+  margin-left: -180px;
+}
+.pfordhell p{
+  margin-left: -200px;
+  margin-right: -90px;
+}
+
+.containerforpowershell h4{
+  margin-left: -280px;
+}
+
+.Settings{
+  margin-left:20px;
+
+}
+.Settings img{
+  margin-left: 100px;
+}
+
+.still h2{
+  margin-top:30px;
+  margin-left: 15px;
+  margin-left: 15px;
+}
+.still p{
+  margin-top:30px;
+}
+
+.footerContain{
+
+}
+
+
 }
 @media only screen and (max-width:390px) {
   .ul {
